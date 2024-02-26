@@ -1,0 +1,33 @@
+[mca@localhost ~]$ ls
+Desktop  Documents  Downloads  Music  Pictures  Public  Templates  Videos
+[mca@localhost ~]$ cd Desktop
+[mca@localhost Desktop]$ mkdir NewDir
+[mca@localhost Desktop]$ cd NewDir
+[mca@localhost NewDir]$ mkdir MES
+[mca@localhost NewDir]$ cd MES
+[mca@localhost MES]$ touch s1.txt
+[mca@localhost MES]$ pwd
+/home/mca/Desktop/NewDir/MES
+[mca@localhost MES]$ expr 5 + 4
+9
+[mca@localhost MES]$ cd ..
+[mca@localhost NewDir]$ pwd
+/home/mca/Desktop/NewDir
+[mca@localhost NewDir]$ cat >s1.txt
+helo 
+how are you
+[mca@localhost NewDir]$ cd MES
+[mca@localhost MES]$ cat >s1.txt
+hello
+how are you
+[mca@localhost MES]$ cd ..
+[mca@localhost NewDir]$ cd ..
+[mca@localhost Desktop]$ cd jaslana shell
+bash: cd: too many arguments
+[mca@localhost Desktop]$ cd jaslana shell
+bash: cd: too many arguments
+[mca@localhost Desktop]$ cat >s2.txt
+jaslana surayya c
+shell programming
+[mca@localhost Desktop]$ 
+
